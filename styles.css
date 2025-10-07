@@ -571,9 +571,12 @@ main {
 }
 @media(max-width:960px){
   .name h1{
-    line-height:47px;
-    padding:0;
-    margin:20px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    line-height: 47px;
     text-align: center;
   }
   h2{
@@ -601,20 +604,26 @@ main {
   h2{
     font-size: 37px;
   }
+  header{
+    width: 93%;
+  }
   .name h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     font-size: 40px;
-    line-height: 40px;
-    padding:0;
-    margin:20px 0 10px 0;
+    line-height: 44px;
     text-align: center;
   }
   .home img{
-    width:80%;
+    width:90%;
     margin-right: 40px;
   }
   .name{
     max-width: 70%;
   }
+  
   #about img{
     width: 80%;
   }
@@ -627,32 +636,78 @@ main {
   .name{
     margin: auto;
   }
-  h2{
-    font-size: 30px;
-  }
-  .name h1{
-    font-size: 35px;
-    line-height: 35px;
-    padding:0;
-    margin:20px 0 10px 0;
-    text-align: center;
-  }
-}
-@media(max-width:440px){
-  .timeline {
-    width: 130px;
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; /* Reduced from 16px to 14px */
   }
   .home{
-    margin:auto;
+    margin-right:40px;
   }
   h2{
     font-size:28px;
   }
+  #btn{
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 6px 8px;
+  }
+  .logo{
+    font-size: 18px;
+  }
+  header{
+    width: 93%;
+  }
   .name h1{
-    font-size: 28px;
-    line-height: 30px;
-    padding:0;
-    margin:20px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    line-height: 39px;
+    text-align: center;
+  }
+}
+@media(max-width:440px){
+  main{
+    margin-left: 10px;
+  }
+  .timeline {
+    width: 130px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; /* Reduced from 16px to 14px */
+  }
+  
+  .home{
+    margin-right:40px;
+  }
+  footer{
+    width: 100%;
+  }
+  h2{
+    font-size:28px;
+  }
+  #btn{
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 6px 8px;
+  }
+  .logo{
+    font-size: 18px;
+  }
+  header{
+    width: 93%;
+  }
+  .name h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    line-height: 39px;
     text-align: center;
   }
 }
@@ -660,14 +715,30 @@ main {
   .timeline {
     width: 100px;
   }
+  #btn{
+    margin-left: 20px;
+    font-size: 10px;
+    padding: 6px 8px;
+  }
+  .logo{
+    font-size: 18px;
+  }
+  header{
+    width: 93%;
+  }
   h2{
     font-size:26px;
   }
   .name h1{
-    font-size: 24px;
-    line-height: 28px;
-    padding:0;
-    margin:20px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    line-height: 35px;
     text-align: center;
+  }
+  footer{
+    width: 100%;
   }
 }
