@@ -682,7 +682,7 @@ main {
   }
   
   .home{
-    margin-right:40px;
+    margin-right:10px;
   }
   footer{
     width: 100%;
@@ -709,6 +709,14 @@ main {
     font-size: 35px;
     line-height: 39px;
     text-align: center;
+  }
+  .about-text{
+    width: 100%;
+    padding-right: 20px;
+  }
+  #about img{
+    width: 100%;
+    margin-left: 20px;
   }
 }
 @media(max-width:360px){
