@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300;400;600;700&display=swap');
-*{
-  /* overflow-x: hidden; */
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -372,7 +370,22 @@ main {
 .footer-section.social a:hover {
   color:burlywood;
 }
-
+@media(max-width:1630px){
+  
+  .about-text {
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 700px;
+  }
+  .timeline{
+    /* background-color: red; */
+    width:430px;
+  }
+  .home img{
+    width:62%;
+  }
+  
+}
 @media(max-width:1430px){
   
   .about-text {
@@ -592,6 +605,9 @@ main {
   }
 }
 @media(max-width:660px){
+  .home{
+    /* padding-right: 40px; */
+  }
   nav ul {
     margin-left: -10px;
    justify-content: center;
@@ -668,7 +684,7 @@ main {
     text-align: center;
   }
 }
-@media(max-width:440px){
+/* @media(max-width:440px){
   main{
     margin-left: 10px;
   }
@@ -680,7 +696,6 @@ main {
     text-decoration: none;
     font-size: 12px; /* Reduced from 16px to 14px */
   }
-  
   .home{
     margin-right:10px;
   }
@@ -749,4 +764,4 @@ main {
   footer{
     width: 100%;
   }
-}
+} */
