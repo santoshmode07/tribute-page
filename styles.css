@@ -684,12 +684,12 @@ main {
     text-align: center;
   }
 }
-/* @media(max-width:440px){
+@media(max-width:440px){
   main{
     margin-left: 10px;
   }
   .timeline {
-    width: 130px;
+    width: 100px;
   }
   nav ul li a {
     color: white;
@@ -698,9 +698,6 @@ main {
   }
   .home{
     margin-right:10px;
-  }
-  footer{
-    width: 100%;
   }
   h2{
     font-size:28px;
@@ -714,7 +711,10 @@ main {
     font-size: 18px;
   }
   header{
-    width: 93%;
+    width: 90%;
+  }
+  footer{
+    width:90%;
   }
   .name h1{
     display: flex;
@@ -761,7 +761,4 @@ main {
     line-height: 35px;
     text-align: center;
   }
-  footer{
-    width: 100%;
-  }
-} */
+}
