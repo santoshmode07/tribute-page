@@ -658,7 +658,6 @@ main {
     margin: auto;
   } */
    .intro-text{
-    outline: 1px solid blue;
     font-size: 15px;
     width: 100%;
     padding: 0 10px; /* small side padding only */
@@ -704,11 +703,7 @@ main {
   #about-heading {
     margin-bottom: 10px;
   }
-  .home{
-    outline: red solid 1px;
-  }
   .intro-text {
-    outline: 1px solid red;
     padding: 0 10px; /* small side padding only */
     margin: 0 auto;  /* center it */
     box-sizing: border-box;
@@ -723,9 +718,28 @@ main {
     text-decoration: none;
     font-size: 12px; /* Reduced from 16px to 14px */
   }
+  .name{
+    max-width: 90%;
+    margin: auto;
+  }
   .home {
     margin: 0; /* remove margin-right */
+    width: 100%;
+    /* overflow-x: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
   }  
+  .home img{
+      width: 100%;          /* makes it fill the container width */
+      max-width: 400px;     /* you can increase this value to make it bigger */
+      display: block;
+      height: auto;    
+  }
   h2{
     font-size:28px;
   }
