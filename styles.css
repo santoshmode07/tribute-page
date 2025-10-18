@@ -705,7 +705,8 @@ main {
   }
   .intro-text {
     padding: 0 10px; /* small side padding only */
-    margin: 0 auto;  /* center it */
+    width:150px;
+    font-size: 12px;
     box-sizing: border-box;
     word-wrap: break-word;
   }
@@ -720,7 +721,7 @@ main {
   }
   .name{
     max-width: 90%;
-    margin: auto;
+    margin-right: 30px;
   }
   .home {
     margin: 0; /* remove margin-right */
