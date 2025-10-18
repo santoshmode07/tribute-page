@@ -654,9 +654,20 @@ main {
   .timeline {
     width: 170px;
   }
-  .name{
+  /* .name{
     margin: auto;
-  }
+  } */
+   .intro-text{
+    outline: 1px solid blue;
+    font-size: 15px;
+    width: 100%;
+    padding: 0 10px; /* small side padding only */
+    margin: 0 auto;  /* center it */
+    box-sizing: border-box;
+    /* text-align: justify; optional: improves readability */
+    word-wrap: break-word;
+
+   }
   nav ul li a {
     color: white;
     text-decoration: none;
@@ -692,6 +703,16 @@ main {
   }
   #about-heading {
     margin-bottom: 10px;
+  }
+  .home{
+    outline: red solid 1px;
+  }
+  .intro-text {
+    outline: 1px solid red;
+    padding: 0 10px; /* small side padding only */
+    margin: 0 auto;  /* center it */
+    box-sizing: border-box;
+    word-wrap: break-word;
   }
   .timeline {
     width:100%;
