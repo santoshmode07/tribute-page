@@ -705,7 +705,7 @@ main {
   }
   .intro-text {
     padding: 0 10px; /* small side padding only */
-    width:150px;
+    width:130px;
     font-size: 12px;
     box-sizing: border-box;
     word-wrap: break-word;
@@ -724,7 +724,6 @@ main {
     margin-right: 30px;
   }
   .home {
-    margin: 0; /* remove margin-right */
     width: 100%;
     /* overflow-x: hidden; */
     display: flex;
