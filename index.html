@@ -162,13 +162,30 @@
     </footer>
     
     <script>
-      const toggleBtn = document.querySelector('.menu-toggle');
+      const menuToggle = document.querySelector('.menu-toggle');
       const nav = document.querySelector('nav');
-
-      toggleBtn.addEventListener('click', () => {
+    
+      // Toggle open/close
+      menuToggle.addEventListener('click', (e) => {
+        e.stopPropagation(); // prevent immediate closing when clicking the button itself
         nav.classList.toggle('active');
       });
+    
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (nav.classList.contains('active') && !nav.contains(e.target) && e.target !== menuToggle) {
+          nav.classList.remove('active');
+        }
+      });
+    
+      // Close menu when clicking a link
+      document.querySelectorAll('nav a').forEach(link => {
+        link.addEventListener('click', () => {
+          nav.classList.remove('active');
+        });
+      });
     </script>
+    
 
     
 </body>
