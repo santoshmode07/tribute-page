@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:wght@300;400;600;700&display=swap');
 
+
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -34,45 +37,6 @@ nav ul li a {
   font-size: 26px;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html {
   scroll-behavior: smooth;
@@ -823,7 +787,7 @@ main {
     word-wrap: break-word;
   }
   .timeline {
-    /* width:100%; */
+    width:100%;
     max-width: 100px;
   }
   nav ul li a {
