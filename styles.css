@@ -824,7 +824,7 @@ main {
   }
   .timeline {
     /* width:100%; */
-    max-width: 114px;
+    max-width: 100px;
   }
   nav ul li a {
     color: white;
