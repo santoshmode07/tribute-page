@@ -14,7 +14,7 @@
     <div class="menu-toggle" id="menu-toggle">
       ☰
     </div>
-    
+
     <a href="#">
       <h1 class="logo">TRIBUTE PAGE</h1>
     </a>
@@ -162,13 +162,14 @@
     </footer>
     
     <script>
-      const menuToggle = document.getElementById("menu-toggle");
-      const navMenu = document.getElementById("nav-menu");
-    
-      menuToggle.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
+      const toggleBtn = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('nav');
+
+      toggleBtn.addEventListener('click', () => {
+        nav.classList.toggle('active');
       });
     </script>
+
     
 </body>
 

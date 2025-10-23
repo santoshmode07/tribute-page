@@ -691,7 +691,7 @@ main {
     display: none;
     position: absolute;
     top: 60px;
-    right: 20px;
+    /* right: 20px; */
     background: #222;
     border-radius: 8px;
     width: 180px;
@@ -823,8 +823,8 @@ main {
     word-wrap: break-word;
   }
   .timeline {
-    width:100%;
-    max-width: 100px;
+    /* width:100%; */
+    max-width: 114px;
   }
   nav ul li a {
     color: white;
@@ -841,18 +841,15 @@ main {
   }
   .home {
     width: 100%;
-    /* overflow-x: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin: 0; */
-    /* padding: 0; */
     box-sizing: border-box;
   }  
   .home img{
-      width: 100%;          /* makes it fill the container width */
-      max-width: 400px;     /* you can increase this value to make it bigger */
+      width: 100%;          
+      max-width: 400px;  
       display: block;
       height: auto;    
   }
