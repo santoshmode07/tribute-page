@@ -873,9 +873,9 @@ main {
   }
   .about-text {
     font-size: 14px;
-    padding: 0 5px;
+    padding: 0 10px;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 95%;
   }
   .name h1{
     display: flex;
