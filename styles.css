@@ -788,7 +788,7 @@ main {
     word-wrap: break-word;
   }
   .timeline {
-    width: 100px;
+    width: 100%;
     margin: 0 10px;
   }  
   nav ul li a {
