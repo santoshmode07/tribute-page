@@ -650,6 +650,7 @@ main {
     width: 70%;
   }
 }
+
 @media(max-width:750px){
   nav {
     display: none;
@@ -787,8 +788,8 @@ main {
     word-wrap: break-word;
   }
   .timeline {
-    width: 100%;
-    margin: 0 auto;
+    width: 100px;
+    margin: 0 10px;
   }  
   nav ul li a {
     color: white;
